@@ -1,0 +1,78 @@
+                                      /* Stylesheets and Google fonts import */
+                                  
+                                  @import url("font-awesome.css");
+                                  @import url("entypo.css");
+                                  /* Chuky Alp Fontlar Burada */
+                                  
+                                  @import url("fonts.css");
+                                  /* Chuky Alp Fontlar Burada */
+                                  
+                                  * {
+                                      margin: 0;
+                                      padding: 0;
+                                      box-sizing: border-box;
+                                  }
+                                  
+                                  body {
+                                      font-family: arial;
+                                      background: #ebebeb;
+                                      /* backup for old browsers */
+                                      background-color: #ffffff;
+                                      background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+                                  }
+                                  
+                                  .samples {
+                                      display: flex;
+                                      flex-direction: column;
+                                      margin: 25px 0;
+                                  }
+                                  
+                                  .grid {
+                                      display: flex;
+                                      flex-direction: row;
+                                      flex-wrap: wrap;
+                                      padding: 25px 0 100px;
+                                  }
+                                  
+                                  #magicalInput {
+                                      padding: 10px;
+                                      border-radius: 5px;
+                                      font-size: 2.2em;
+                                      display: flex;
+                                      width: 50%;
+                                      margin: 20px auto;
+                                  }
+                                  
+                                  .box {
+                                      width: 100%;
+                                      text-align: center;
+                                      min-height: 75px;
+                                      border: 1px solid #dadada;
+                                  }
+                                  
+                                  .title {
+                                      font-family: arial;
+                                      padding: 5px 0;
+                                      color: #eee;
+                                      font-weight: bolder;
+                                      background-color: #082b304d;
+                                  }
+                                  
+                                  .code {
+                                      padding: 10px 5px;
+                                      font-size: 1.8em;
+                                      color: #111;
+                                      word-wrap: break-word;
+                                  }
+                                  /* Medium devices (landscape tablets, 768px and up) */
+                                  
+                                  @media only screen and (min-width: 768px) {
+                                      .box {
+                                          width: calc(100% * (1/2));
+                                      }
+                                      /* Large devices (laptops/desktops, 992px and up) */
+                                      @media only screen and (min-width: 992px) {
+                                          .box {
+                                              width: calc(100% * (1/4));
+                                          }
+                                      }
